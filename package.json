@@ -1,0 +1,23 @@
+{
+  "name": "nodeDBProject",
+  "version": "0.0.0",
+  "description": "Projekt na zalicznie z Baz Danych 2014/2015",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch lib --watch routes app.js"
+  },
+  "author": "Tymoteusz Dzienniak",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^0.9.0",
+    "body-parser": "^1.10.1",
+    "check-types": "^2.2.0",
+    "express": "^4.10.7",
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-react": "^0.10.0",
+    "inverse": "^0.10.0",
+    "mssql": "^1.3.0",
+    "squel": "^3.10.0"
+  }
+}

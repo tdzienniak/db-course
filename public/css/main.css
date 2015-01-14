@@ -1,0 +1,68 @@
+.content {
+    padding: 10px;
+}
+
+.form-controls button {
+    float: right;
+    margin-left: 5px;
+}
+
+.arrow-up {
+    margin-left: 5px;
+    display: inline;
+    position: relative;
+    top: -10px;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-bottom: 5px solid black;
+}
+
+.arrow-down {
+    margin-left: 5px;
+    position: relative;
+    top: 10px;
+    display: inline;
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    
+    border-top: 5px solid black;
+}
+
+.hidden {
+    display: none;
+}
+
+th {
+    cursor: pointer;
+}
+
+tbody > tr {
+    cursor: default;
+}
+
+tbody > tr:hover > td {
+    background: rgb(220, 220, 220) !important;
+    color: black;
+}
+
+.dummy {}
+
+.selected-row td {
+    background: #1f8dd6 !important;
+    color: white;
+    
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

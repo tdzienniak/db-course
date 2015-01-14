@@ -1,0 +1,8 @@
+{
+    "db": {
+        "user": "tymoteusz",
+        "password": "kolorytboa",
+        "database": "northwind",
+        "server": "localhost"
+    }
+}
